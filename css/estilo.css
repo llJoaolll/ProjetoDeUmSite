@@ -1,0 +1,211 @@
+/*Limpar formatações padrão*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #1f1f1f;
+}
+
+/* ----------------- Layout ----------------- */
+#area-cabecalho{
+	background-color: #000000;
+	padding: 5px;
+	text-align: center;
+}
+
+#area-logo, #area-menu{
+	padding: 10px;
+	
+}
+
+/*#area-principal{
+	width: 500px;
+	margin: 0 auto;
+	padding: 15px;
+
+}*/
+
+#area-postagens{
+	width: 500px;
+	float: left;
+
+}
+
+#area-lateral{
+	width: 240px;
+	float: right;
+}
+
+#rodape{
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;
+}
+
+.postagem{
+	padding: 20px;
+	margin-bottom: 30px;
+	background: white;
+
+}
+
+.conteudo-lateral{
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.postagem-lateral{
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px dotted #ccc;
+}
+
+.img{
+	width:150px; 
+	height:200px;
+}
+
+.hidden{
+	display: none;
+}
+
+.teste{
+	/*float:left;
+	padding: 5px;
+	margin-bottom: 10px;*/
+	background: black;
+	border:5px solid white;
+	color:white;
+}
+
+
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;
+  }
+
+.form{
+	background-color: #1f1f1f;
+	color: white;
+	
+}
+
+.center{
+	text-align: center;
+}
+
+.btn-xs{
+	padding: .25rem .4rem;
+	font-size: .875rem;
+	line-height: .5;
+	border-radius: .2rem;    
+}
+
+.spc{
+	padding: 5px;
+}
+
+.vd{
+	background-color: green;
+}
+
+
+/* ----------------- Formatação do Menu ----------------- */
+
+a{
+	text-decoration: none;
+
+}
+
+/*a:link, a:visited{
+	color: red;
+	
+}*/
+
+/*a:hover{
+	text-decoration: underline;
+}*/
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+	color: #fff;
+	padding: 8px 12px;
+}
+
+#area-cabecalho a:hover{
+	color: red;
+	background: rgba(15, 15, 15, 0.699);
+	text-decoration: none;
+}
+
+/* ----------------- Formatações em Geral ----------------- */
+h1{
+	color: #ffffff;
+	font-size: 2.5em;
+}
+
+h2{
+	color: #e47105;
+}
+
+
+
+.vermelho{
+	color: red;
+}
+
+.tam{
+	font-size: 0.8em;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.branco{
+	color:white;
+}
+
+.bgt{
+	background-color: white;
+	color:black;
+}
+
+.tt{
+	color:black;
+	font-weight: bold;
+	text-align: justify,center;
+}
+
+.t2t{
+	color:black;
+	text-align: justify;
+}
+
+.tp{
+	text-align: justify;
+}
+
+.ic{
+	color:white;
+	text-shadow: 2px 2px 2px black;
+}
+
+.icon{
+	width: 44px;
+	height: 41px;
+}
+
+.ita{
+	font-style: italic;
+}
+
+a,a:link,a:visited,a:hover{
+	color:white;
+}
+
